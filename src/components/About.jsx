@@ -1,6 +1,9 @@
 import lilliAbout from "../assets/about.jpg";
 
-const cvURL = "https://drive.google.com/file/d/1rhbeCVX5fKCSskmViOvCzv1QqLyibsy5/view?usp=sharing";
+//old
+const cvURL = "https://drive.google.com/file/d/16vaj_V85a5qLHjmv_npl507uRe3RA5gD/view?usp=sharing"; 
+//new
+// const cvURL = "https://drive.google.com/file/d/18Uv1_NxF_eTTnAKUJH5REvDqFQLa9udJ/view?usp=sharing"; 
 const About = () => {
   return (
     <section className="section-about" id="about" aria-label="about">
