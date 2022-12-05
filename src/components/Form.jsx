@@ -34,8 +34,9 @@ const Form = () => {
       setMessage("");
     } catch (error) {
       console.log(error);
-      setIsLoading(false);
       // setError(error?.response?.data?.msg);
+      setError("Message not sent, try again");
+      setIsLoading(false);
     }
   };
   useEffect(() => {

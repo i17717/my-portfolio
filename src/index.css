@@ -592,7 +592,7 @@ textarea:focus {
 }
 .alert {
   width: clamp(200px, 50%, 500px);
-  padding: 3em 1.5em;
+  padding: 1.5em 0.5em;
   margin-inline: auto;
   text-align: center;
   border-radius: 0.25rem;
@@ -600,6 +600,11 @@ textarea:focus {
   background: var(--secondary);
   z-index: 50;
   position: relative;
+}
+@media screen and (min-width: 700px) {
+  .alert {
+    padding: 3em 1.5em;
+  }
 }
 .alert-overlay {
   position: fixed;
