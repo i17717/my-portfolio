@@ -1,0 +1,14 @@
+{
+  "short_name": "my-portfolio",
+  "name": "Lilli Portfolio",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ff69b4",
+  "background_color": "#ffffff"
+}
