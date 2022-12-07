@@ -1,9 +1,9 @@
 import lilliAbout from "../assets/about.jpg";
 
 //old
-const cvURL = "https://drive.google.com/file/d/16vaj_V85a5qLHjmv_npl507uRe3RA5gD/view?usp=sharing"; 
+const cvURL = "https://drive.google.com/file/d/19fAEhrN5SdjzbiZBwevZ0WnOIae2eZrX/view?usp=sharing"; 
 //new
-// const cvURL = "https://drive.google.com/file/d/18Uv1_NxF_eTTnAKUJH5REvDqFQLa9udJ/view?usp=sharing"; 
+// const cvURL = "https://drive.google.com/file/d/1-4DljMJzx9iE3CLLwI1pdaTuPk4PyZld/view?usp=sharing"; 
 const About = () => {
   return (
     <section className="section-about" id="about" aria-label="about">
