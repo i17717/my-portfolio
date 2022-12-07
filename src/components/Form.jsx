@@ -33,7 +33,6 @@ const Form = () => {
       setEmail("");
       setMessage("");
     } catch (error) {
-      console.log(error);
       // setError(error?.response?.data?.msg);
       setError("Message not sent, try again");
       setIsLoading(false);
