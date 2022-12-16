@@ -1,6 +1,6 @@
 import pixelArtMaker from "../assets/portfolio/pixel-art-maker.png";
 import myMessages from "../assets/portfolio/my-messages.png";
-import chatRoom from "../assets/portfolio/chatroom.png";
+import chatRoom from "../assets/portfolio/chat-room.png";
 import passwordGenerator from "../assets/portfolio/password-generator.png";
 // import lillish from "../assets/portfolio/lillish.png";
 
@@ -17,7 +17,7 @@ export const portfolio = [
   },
   {
     img: chatRoom,
-    url: "https://github.com/lillime0/lite-chatroom",
+    url: "https://github.com/lillime0/chat-room",
     name: "Chat-room"
   },
   {
