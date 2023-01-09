@@ -29,6 +29,12 @@ export const skills = [
     color: "#2196f3"
   },
   {
+    img: sass,
+    name: "SASS",
+    progress: 70,
+    color: "#cf649a"
+  },
+  {
     img: js,
     name: "Javascript",
     progress: 80,
@@ -70,15 +76,9 @@ export const skills = [
     progress: 60,
     color: "#46a037"
   },
-  {
-    img: sass,
-    name: "SASS",
-    progress: 70,
-    color: "#cf649a"
-  },
    {
     img: graphql,
-    name: "SASS",
+    name: "GraphQL",
     progress: 50,
     color: "#DF34A6"
   },
