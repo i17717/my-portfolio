@@ -8,6 +8,7 @@ import react from "../assets/skills/react.svg";
 // import next from "../assets/skills/nextjs.svg";
 import node from "../assets/skills/node-js.svg";
 import sass from "../assets/skills/sass.svg";
+import graphql from "../assets/skills/graphql.svg";
 // import firebase from "../assets/skills/firebase.svg";
 // import netlify from "../assets/skills/netlify.svg";
 import jest from "../assets/skills/jest.svg";
@@ -75,6 +76,12 @@ export const skills = [
     progress: 70,
     color: "#cf649a"
   },
+   {
+    img: graphql,
+    name: "SASS",
+    progress: 50,
+    color: "#DF34A6"
+  },
   // {
   //   img: firebase,
   //   name: "Firebase",
@@ -90,7 +97,7 @@ export const skills = [
   {
     img: jest,
     name: "Jest",
-    progress: 50,
+    progress: 40,
     color: "#99415b"
   },
   // {
