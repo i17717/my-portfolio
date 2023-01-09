@@ -5,7 +5,7 @@ import ts from "../assets/skills/typescript.svg";
 import mongo from "../assets/skills/mongodb.svg";
 import express from "../assets/skills/express.svg";
 import react from "../assets/skills/react.svg";
-// import next from "../assets/skills/nextjs.svg";
+// import next from "../assets/skills/nextjs2.svg";
 import node from "../assets/skills/node-js.svg";
 import sass from "../assets/skills/sass.svg";
 import graphql from "../assets/skills/graphql.svg";
