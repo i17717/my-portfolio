@@ -375,6 +375,9 @@ h2 {
   margin-inline: auto;
   width: 80%;
 }
+.skills-container {
+  width: 90‰;
+}
 .skills-container h2 {
   text-align: center;
   font-size: 2rem;
