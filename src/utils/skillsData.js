@@ -49,7 +49,7 @@ export const skills = [
   {
     img: react,
     name: "React",
-    progress: 75,
+    progress: 80,
     color: "#61dafb"
   },
   // {
