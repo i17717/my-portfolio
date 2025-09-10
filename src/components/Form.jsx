@@ -26,7 +26,7 @@ const Form = () => {
         "service_izhzsgo",
         "template_m96m8us",
         formRef.current,
-        publicKey: 'Et3NkC7JjJJwzS4HA',
+        { publicKey: 'Et3NkC7JjJJwzS4HA'}
       );
       setIsOpen(true);
       setIsLoading(false);
