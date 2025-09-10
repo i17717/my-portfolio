@@ -13,7 +13,7 @@ import graphql from "../assets/skills/graphql.svg";
 // import netlify from "../assets/skills/netlify.svg";
 import jest from "../assets/skills/jest.svg";
 // import flutter from "../assets/skills/flutter.svg";
-import unity from "../assets/skills/unity.svg";
+//import unity from "../assets/skills/unity.svg";
 
 export const skills = [
   {
@@ -106,10 +106,10 @@ export const skills = [
   //   progress: 0,
   //   color: "#45d1fd"
   // },
-  {
-    img: unity,
-    name: "Unity",
-    progress: 30,
-    color: "#000"
-  }
+ // {
+ //   img: unity,
+ //   name: "Unity",
+ //   progress: 30,
+ //   color: "#000"
+ // }
 ];
