@@ -20,3 +20,5 @@ export const links = [
     text: "Contact"
   }
 ];
+
+export const cvURL = "https://drive.google.com/file/d/1O_OpCw3Jya38iW46Kn-jtkehi4ZMOiXx/view?usp=sharing";

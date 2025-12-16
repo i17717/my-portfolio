@@ -12,7 +12,7 @@ const Alert = ({ setIsOpen }) => {
     <>
       <li key="1" className="social-icons">
         <a
-          href="https://facebook.com/lillime0"
+          href="https://facebook.com/i17717"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -30,7 +30,7 @@ const Alert = ({ setIsOpen }) => {
       </li>
       <li key="3" className="social-icons">
         <a
-          href="https://linkedin.com/in/lillime0"
+          href="https://linkedin.com/in/i17717"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -39,7 +39,7 @@ const Alert = ({ setIsOpen }) => {
       </li>
       <li key="4" className="social-icons">
         <a
-          href="https://github.com/lillime0"
+          href="https://github.com/i17717"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -48,7 +48,7 @@ const Alert = ({ setIsOpen }) => {
       </li>
       <li key="5" className="social-icons">
         <a
-          href="https://behance.net/lillime0"
+          href="https://behance.net/i17717"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -57,7 +57,7 @@ const Alert = ({ setIsOpen }) => {
       </li>
       <li key="6" className="social-icons">
         <a
-          href="https://lillime0.github.io/"
+          href="https://i17717.github.io/"
           target="_blank"
           rel="noopener noreferrer"
         >

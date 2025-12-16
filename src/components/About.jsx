@@ -1,6 +1,6 @@
 import lilliAbout from "../assets/about.jpg";
+import { cvURL } from "../utils/data";
 
-const cvURL = "https://drive.google.com/file/d/1-4DljMJzx9iE3CLLwI1pdaTuPk4PyZld/view?usp=sharing"; 
 const About = () => {
   return (
     <section className="section-about" id="about" aria-label="about">

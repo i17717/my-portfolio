@@ -17,12 +17,12 @@ export const portfolio = [
   },
   {
     img: chatRoom,
-    url: "https://github.com/lillime0/chat-room",
+    url: "https://github.com/i17717/chat-room",
     name: "Chat-room"
   },
   {
     img: myMessages,
-    url: "https://github.com/lillime0/my-messages",
+    url: "https://github.com/i17717/my-messages",
     name: "My Messages"
   }
   // ,{

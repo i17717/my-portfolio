@@ -10,7 +10,7 @@ const Header = () => {
           <p className="subtitle-1">Hi, my name is</p>
           <h1>Ruaa (Lilli) Ibrahim</h1>
           {/* <p className="subtitle-2">I'm a Web & Mobile Developer</p> */}
-          <p className="subtitle-2">I'm a MERN Stack Developer</p>
+          <p className="subtitle-2">I'm a Software Engineer</p>
           <div className="section-media">
             <ul className="social-icons">
               <SocialMedia />

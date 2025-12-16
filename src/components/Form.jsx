@@ -23,16 +23,17 @@ const Form = () => {
        * first step promise.all[await emailjs, await axios]
        */
       await emailjs.sendForm(
-        "service_izhzsgo",
-        "template_m96m8us",
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
         formRef.current,
-        { publicKey: 'Et3NkC7JjJJwzS4HA'}
+        import.meta.env.VITE_PUBLIC_KEY
       );
       setIsOpen(true);
       setIsLoading(false);
       setEmail("");
       setMessage("");
     } catch (error) {
+      // console.log(error);
       // setError(error?.response?.data?.msg);
       setError("Message not sent, try again");
       setIsLoading(false);
@@ -62,9 +63,9 @@ const Form = () => {
           inputMode="email"
           value={email}
           onChange={e => setEmail(e.target.value)}
-          name="user_email" //for emailij
-          // name="email"
+          name="email" 
           id="email"
+          autoComplete="ON"
           required
         />
         <textarea

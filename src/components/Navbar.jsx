@@ -8,7 +8,7 @@ const Nav = () => {
   return (
     <nav className={`nav ${showLinks && "nav-bg"}`}>
       <div className="nav-sm">
-        <a href="https://lillime0.github.io">
+        <a href="https://i17717.github.io">
           <img className="nav-logo" src={lilliLogo} alt="Lilli logo" />
         </a>
         <button
