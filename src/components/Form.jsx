@@ -21,19 +21,25 @@ const Form = () => {
       // await axios.post(url, { email, message });
       /**
        * first step promise.all[await emailjs, await axios]
-       */
+      */
       await emailjs.sendForm(
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,
         formRef.current,
         import.meta.env.VITE_PUBLIC_KEY
       );
+      // await emailjs.send(
+      //   import.meta.env.VITE_SERVICE_ID,
+      //   import.meta.env.VITE_TEMPLATE_ID,
+      //   { email, message },
+      //   import.meta.env.VITE_PUBLIC_KEY
+      // );
       setIsOpen(true);
       setIsLoading(false);
       setEmail("");
       setMessage("");
     } catch (error) {
-      // console.log(error);
+      console.log(error);
       // setError(error?.response?.data?.msg);
       setError("Message not sent, try again");
       setIsLoading(false);
