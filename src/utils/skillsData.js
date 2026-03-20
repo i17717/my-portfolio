@@ -10,7 +10,7 @@ import node from "../assets/skills/node-js.svg";
 import sass from "../assets/skills/sass.svg";
 import graphql from "../assets/skills/graphql.svg";
 // import firebase from "../assets/skills/firebase.svg";
-// import netlify from "../assets/skills/netlify.svg";
+import netlify from "../assets/skills/netlify.svg";
 import jest from "../assets/skills/jest.svg";
 // import flutter from "../assets/skills/flutter.svg";
 //import unity from "../assets/skills/unity.svg";
@@ -88,12 +88,12 @@ export const skills = [
   //   progress: 40,
   //   color: "#fcca3f"
   // },
-  // {
-  //   img: netlify,
-  //   name: "Netlify",
-  //   progress: 30,
-  //   color: "#46aebc"
-  // },
+  {
+    img: netlify,
+    name: "Netlify",
+    progress: 40,
+    color: "#46aebc"
+  },
   {
     img: jest,
     name: "Jest",

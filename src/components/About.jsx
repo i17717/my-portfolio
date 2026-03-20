@@ -13,12 +13,10 @@ const About = () => {
             About <span>me</span>
           </h2>
           <p>
-            Here is me again. I'm an engineer, developer, designer, and stories
-            writer in my free time.
+            Hello again. I'm an engineer, developer, designer, and stories-writer in my free time.
           </p>
           <p>
-            I'm so passionate about creating stuff and anything that's related
-            to innovation.
+            I'm so passionate about creating new things—whether it’s a software app, written story, or any project that involves creativity and innovation.
           </p>
           <a
             className="btn btn-cv"

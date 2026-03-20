@@ -142,6 +142,7 @@ h2 {
 @media screen and (min-width: 700px) {
   .section-info .subtitle-1 {
     margin-inline-start: 0;
+    font-size: 1.5rem;
   }
 }
 .section-info h1 {
