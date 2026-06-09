@@ -21,4 +21,4 @@ export const links = [
   }
 ];
 
-export const cvURL = "https://drive.google.com/file/d/1m-vW18ndDZ1OIfoXvdYlqVlxu18Dneps/view?usp=sharing";
+export const cvURL = "https://drive.google.com/file/d/1lP76IeXjksKPXjDC_xo4wwsWsZ94N80l/view?usp=sharing";
